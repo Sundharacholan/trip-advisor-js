@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"   />
+    <title>Trip advisor</title>
+    <link rel="icon" href="./images/fav icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- menubar -->
+    <div class="menu">
+        <div id="menumq" class="mq_pics" style="cursor:pointer; transition-duration: 2s;">
+            <img src="./images/ms-menu.png" alt="">
+        </div>
+        <div class="menu__logo">
+            <img src="./images/logo.svg" alt=" trip advisor logo">
+        </div>
+        <div class="mq_pics">
+            <img src="./images/ms-acc.png" alt="">
+        </div>
+        <div class="menu__list">
+            <h4>Trips</h4>
+            <h4>Discover</h4>
+            <h4>Review</h4>
+            <h4>Forums</h4>
+        </div>
+        <div class="menu__signin">
+            <div class="menu__signin-lan">
+                <img src="./images/world.png" alt="">
+                <h4>INR</h4>
+            </div>
+            <div class="menu__signin-sign">
+                <h4>Sign In</h4>
+            </div>
+        </div>
+    </div>
+    <!-- mq-navbar -->
+    <div id="navmq" class="mq_navbar" style="left:-90%; transition-duration: 2s; ">
+        <div id="cancel" style="display: flex; justify-content: end; padding-right: 15px;">
+            <img src="./images/mq-close.png" alt="" style="width: 25px; height: 25px; cursor: pointer;">
+        </div>
+        <div class="m2-nav">
+            <h5>Trips</h5>
+            <h5>Discover</h5>
+            <h5>Review</h5>
+            <h5>Forums</h5>
+        </div>
+        <div class="m2-nav">
+            <h5>Hotels</h5>
+            <h5>Restaurant</h5>
+            <h5>Restaurant</h5>
+            <h5>Flights</h5>
+            <h5>Holiday Homes</h5>
+        </div>
+    </div>
+    <!-- title -->
+    <div class="title">
+        <h2>Where to?</h2>
+    </div>
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="ns1">
+            <img class="nsi" src="./images/home.png" alt="">
+            <h4 class="nst" c>Search All</h4>
+        </div>
+        <div class="ns2">
+            <img class="nsi" src="./images/double-bed.png" alt="">
+            <h4 class="nst">Hotels</h4>
+        </div>
+        <div class="ns3">
+            <img class="nsi" src="./images/restaurant.png" alt="">
+            <h4 class="nst">Restaurant</h4>
+        </div>
+        <div class="ns4">
+            <img class="nsi" src="./images/airplane.png" alt="">
+            <h4 class="nst">Flights</h4>
+        </div>
+        <div class="ns5">
+            <img class="nsi" src="./images/sunbed.png" alt="">
+            <h4 class="nst">Holiday Homes</h4>
+        </div>
+    </div>
+    <!-- search -->
+    <div class="search">
+        <div class="search_s1">
+            <img src="./images/search.png" alt="">
+            <input type="search" placeholder="Places to go..,thinks to do ,Hotels...">
+        </div>
+        <div class="search_s2">
+            <b>
+                <p>Search</p>
+            </b>
+        </div>
+    </div>
+    <!-- herobanner -->
+    <div class="herobanner">
+        <img src="./images/hero banner.png" alt="">
+        <p class="ai">Powered by AI</p>
+        <h4>BETA</h4>
+        <h1>Build a trip in minutes</h1>
+        <b>
+            <p class="h__para">Get a personalised itinerary just for you, guided by traveller tips and reviews.</p>
+        </b>
+        <div class="h__button">
+            <i class="fa-solid fa-location-dot" style="color: #ffffff; width:20px; height: 20px;"></i>
+            <h3 class="h__button-s2">Start a trip with AI</h3>
+        </div>
+    </div>
+    <!-- ad -->
+    <div class="ad">
+        <p class="ad__p1"> Make a partnership with us </p>
+        <img src="./images/tr_ad.jpg">
+        <h4>Your guide to Black Baltimore</h4>
+        <p class="ad__p2">Where to stay, What to eat, and the museums you can't miss</p>
+        <h5><b>Download now</b></h5>
+    </div>
+    <!-- tripcard-1-->
+    <div class="trip-card__one">
+        <h3>Go on an award-Winning adventure</h3>
+        <p>2024’s Travellers’ Choice Awards Best of the Best Things To Do</p>
+        <div class="scrool-mq-one">
+            <div class="trip-card__one-img">
+                <div class="trip-card__one-img1">
+                    <img src="./images/t1.jpg" alt="">
+                    <h2 class="trip-card__c1">Top Experience</h2>
+                </div>
+                <div class="trip-card__one-img2">
+                    <img src="./images/t2.jpg" alt="">
+                    <h2 class="trip-card__c2">Top Attractions</h2>
+                </div>
+                <div class="trip-card__one-img3">
+                    <img src="./images/t3.jpg" alt="">
+                    <h2 class="trip-card__c3">Bucket List</h2>
+                </div>
+                <div class="trip-card__one-img4">
+                    <img src="./images/t4.jpg" alt="">
+                    <h2 class="trip-card__c4">Cultural & Historic</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tripcard-2-->
+    <div class="trip-card__two">
+        <h3>Ways to tour Chennai (Madras)</h3>
+        <p>Book these experiences for a close-up look at Chennai (Madras).</p>
+        <div class="scrool-mq-two">
+            <div class="trip-card__two-img">
+                <div class="trip-card__two-img1">
+                    <img src="./images/t5.jpg" alt="">
+                    <div class="trip-card2__c1">
+                        <h4>Total Chennai city tour in Private car with guide & lunch by Wonder tours</h4>
+                        <h6>🟢🟢🟢🟢🟢 49</h6>
+                        <p>from <b>₹11999</b></p>
+                    </div>
+                </div>
+                <div class="trip-card__two-img2">
+                    <img src="./images/t6.jpg" alt="">
+                    <div class="trip-card2__c2">
+                        <h4>Auroville and Pondicherry Tour from Chennai</h4>
+                        <h6>🟢🟢🟢🟢 3</h6>
+                        <p>from <b>₹8499</b></p>
+                    </div>
+                </div>
+                <div class="trip-card__two-img3">
+                    <img src="./images/t7.jpg" alt="">
+                    <div class="trip-card2__c3">
+                        <h4>Kanchipuram Day Trip</h4>
+                        <h6>🟢🟢🟢 7</h6>
+                        <p>from <b>₹1999</b></p>
+                    </div>
+                </div>
+                <div class="trip-card__two-img4">
+                    <img src="./images/t8.jpg" alt="">
+                    <div class="trip-card2__c4">
+                        <h4>Mahabalipuram & Kanchipuram in a day from Chennai by private car with guide</h4>
+                        <h6>🟢🟢🟢🟢🟢 200</h6>
+                        <p>from <b>₹4999</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tripcard-3-->
+    <div class="trip-card__two">
+        <h3>You might like these</h3>
+        <p>More things to do in Chennai (Madras)</p>
+        <div class="scrool-mq-three">
+            <div class="trip-card__two-img">
+                <div class="trip-card__two-img1">
+                    <img src="./images/tr79.jpg" alt="">
+                    <div class="trip-card2__c1">
+                        <h4>Mactan Cebu Island Hopping with Lunch - Gilutungan, Caohagan, Nalusuan</h4>
+                        <h6>🟢🟢🟢🟢🟢 37</h6>
+                        <!-- <p>from <b>₹11999</b></p> -->
+                    </div>
+                </div>
+                <div class="trip-card__two-img2">
+                    <img src="./images/tr75.jpg" alt="">
+                    <div class="trip-card2__c2">
+                        <h4>Day Trip to Taj Mahal and Agra from Chennai with Both Side Commercial Flights</h4>
+                        <h6>🟢🟢🟢🟢 84</h6>
+                        <!-- <p>from <b>₹8499</b></p> -->
+                    </div>
+                </div>
+                <div class="trip-card__two-img3">
+                    <img src="./images/tr78.jpg" alt="">
+                    <div class="trip-card2__c3">
+                        <h4>Whale Shark Snorkeling w/ Tumalog Falls & Canyoneering in Kawasan</h4>
+                        <h6>🟢🟢🟢🟢🟢 68</h6>
+                        <!-- <p>from <b>₹1999</b></p> -->
+                    </div>
+                </div>
+                <div class="trip-card__two-img4">
+                    <img src="./images/tr76.jpg" alt="">
+                    <div class="trip-card2__c4">
+                        <h4>Canyoneering Experience in Kawasan Falls with Lunch</h4>
+                        <h6>🟢🟢🟢🟢🟢 179</h6>
+                        <!-- <p>from <b>₹4999</b></p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tripcard-4-->
+    <div class="trip-card__two">
+        <h3>Thrilling outdoor adventures</h3>
+        <p>Day trips, hikes, whitewater rafting and more</p>
+        <div class="scrool-mq-four">
+            <div class="trip-card__two-img">
+                <div class="trip-card__two-img1">
+                    <img src="./images/tr31.jpg" alt="">
+                    <div class="trip-card2__c1">
+                        <h4>Ninh Binh Full-Day Tour from Hanoi to Hoa Lu, Tam Coc & Mua Cave Via Boat & Bike</h4>
+                        <h6>🟢🟢🟢🟢🟢 2905</h6>
+                        <p>from <b>₹4706 per Adult</b></p>
+                    </div>
+                </div>
+                <div class="trip-card__two-img2">
+                    <img src="./images/tr32.jpg" alt="">
+                    <div class="trip-card2__c2">
+                        <h4>Phi Phi Islands Adventure Day Trip with Seaview Lunch by V.Marine</h4>
+                        <h6>🟢🟢🟢🟢🟢 2905</h6>
+                        <p>from <b>₹6631 per Adult</b></p>
+                    </div>
+                </div>
+                <div class="trip-card__two-img3">
+                    <img src="./images/tr33.jpg" alt="">
+                    <div class="trip-card2__c3">
+                        <h4>Bali ATV Ride and White Water Rafting</h4>
+                        <h6>🟢🟢🟢🟢🟢 7</h6>
+                        <p>from <b>₹3370 per Adult</b></p>
+                    </div>
+                </div>
+                <div class="trip-card__two-img4">
+                    <img src="./images/tr34.jpg" alt="">
+                    <div class="trip-card2__c4">
+                        <h4>Full day snorkeling adventure around Koh Tao</h4>
+                        <h6>🟢🟢🟢🟢🟢 200</h6>
+                        <p>from <b>₹1842 per Adult</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tripcard-5-->
+    <div class="trip-card__two">
+        <h3>More to explore in Private & Water Tours</h3>
+        <p>Day trips, hikes, whitewater rafting and more</p>
+        <div class="scrool-mq-five">
+            <div class="trip-card__two-img">
+                <div class="trip-card__two-img1">
+                    <img src="./images/tr82.jpg" alt="">
+                    <div class="trip-card2__c1">
+                        <h4>Things to do in Koh Tao</h4>
+                        <h6>🟢🟢🟢🟢🟢 2905</h6>
+                        <!-- <p>from <b>₹4706 per Adult</b></p> -->
+                    </div>
+                </div>
+                <div class="trip-card__two-img2">
+                    <img src="./images/tr85.jpg" alt="">
+                    <div class="trip-card2__c2">
+                        <h4>Day Trips in Koh Tao</h4>
+                        <h6>🟢🟢🟢🟢 563</h6>
+                        <!-- <p>from <b>₹6631 per Adult</b></p> -->
+                    </div>
+                </div>
+                <div class="trip-card__two-img3">
+                    <img src="./images/tr81.jpg" alt="">
+                    <div class="trip-card2__c3">
+                        <h4>Eco Tours in Koh Tao</h4>
+                        <h6>🟢🟢🟢🟢 17</h6>
+                        <!-- <p>from <b>₹3370 per Adult</b></p> -->
+                    </div>
+                </div>
+                <div class="trip-card__two-img4">
+                    <img src="./images/tr84.jpg" alt="">
+                    <div class="trip-card2__c4">
+                        <h4>Multi-day Tours in Koh Tao</h4>
+                        <h6>🟢🟢🟢 128</h6>
+                        <!-- <p>from <b>₹1842 per Adult</b></p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- more explore -->
+    <div class="trip-card__three">
+        <h3>More to explore</h3>
+        <div class="trip-card__three-img">
+            <div class="trip-card__three-img1">
+                <img src="./images/ta100.jpg" alt="" style="width: 350px; height:230px;">
+                <div class="trip-card2__c1">
+                    <h5>An outdoor lover's guide to Cairns</h5>
+                    <!-- <h6>🟢🟢🟢🟢🟢 2905</h6> -->
+                    <!-- <p>from <b>₹4706 per Adult</b></p> -->
+                </div>
+            </div>
+            <div class="trip-card__three-img2">
+                <img src="./images/ta101.jpg" alt="" style="width: 350px; height:230px;">
+                <div class="trip-card2__c2">
+                    <h5>10 incredible places to visit in July around the world</h5>
+                    <!-- <h6>🟢🟢🟢🟢 563</h6> -->
+                    <!-- <p>from <b>₹6631 per Adult</b></p> -->
+                </div>
+            </div>
+            <div class="trip-card__three-img3">
+                <img src="./images/ta102.jpg" alt="" style="width: 350px; height:230px;">
+                <div class="trip-card2__c3">
+                    <h5>6 incredible places to visit near Phuket</h5>
+                    <!-- <h6>🟢🟢🟢🟢 17</h6> -->
+                    <!-- <p>from <b>₹3370 per Adult</b></p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="trip-card__one">
+        <h3>Top destinations for your next holiday</h3>
+        <p>Here's where your fellow travellers are headed</p>
+        <div class="scrool-mq-six">
+            <div class="trip-card__one-img">
+                <div class="trip-card__one-img1">
+                    <img src="./images/tr55.jpg" alt="">
+                    <h2 class="trip-card__c1">Udaipur India</h2>
+                </div>
+                <div class="trip-card__one-img2">
+                    <img src="./images/tr53.jpg" alt="">
+                    <h2 class="trip-card__c2">Singapore</h2>
+                </div>
+                <div class="trip-card__one-img3">
+                    <img src="./images/tr51.jpg" alt="">
+                    <h2 class="trip-card__c3">Ubud, Indonesia</h2>
+                </div>
+                <div class="trip-card__one-img4">
+                    <img src="./images/tr54.jpg" alt="">
+                    <h2 class="trip-card__c4">Bangkok, Thailand</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer-image -->
+    <div class="f-hero">
+        <img src="./images/footer banner.png" alt="home">
+    </div>
+    <div class="mq_f-hero" style="background-color:rgb(255, 247, 225);">
+        <img src="./images/footed mq1.PNG" alt="" style="width: 99.7%;">
+        <img src="./images/mq-footer-2.PNG" alt="" style="width: 99.5%;">
+    </div>
+    <!-- footer -->
+    <div class="section11">
+        <div class="section11_topic1">
+            <h5>About Tripadvisor</h5>
+            <p>About Us</p>
+            <p>Press</p>
+            <p>Resources</p>
+            <p>Careers</p>
+            <p>Trust & Policies</p>
+            <p>Contact Us</p>
+            <p>Accessibility Statement</p>
+        </div>
+        <div class="section11_topic2">
+            <h5>Explore</h5>
+            <p>Write a Review</p>
+            <p>Add a Place</p>
+            <p>Join</p>
+            <p>Travellers' Choice</p>
+            <p>GreenLeaders</p>
+            <p>Help Centre</p>
+            <p>Travel Articles</p>
+        </div>
+        <div class="section11_topic3">
+            <h5>Do Business With Us</h5>
+            <p>Owners & DMO/CVB</p>
+            <p>Business Advantages</p>
+            <p>Sponsored Placement</p>
+            <p>Access Our Content</p>
+            <p>Get the App</p>
+            <p>iPhone App</p>
+            <p>Android App</p>
+
+        </div>
+        <div class="section11_topic4" style="padding-left: 150px;">
+            <h5>Tripadvisor Sites</h5>
+            <p>Book tours and attraction tickets on Viator</p>
+        </div>
+    </div>
+    <div class="section12_topic1">
+        <div class="sts_1" style="display: flex;">
+            <img src="./images/fav icon.png" alt="LOgo"
+                style="border-radius: 50%; width: 40px; height:40px; margin-top: 4px; ">
+            <p class="section12_p" style=" width: 230px; height: fit-content; margin-left:15px;"> &copy;2024<span
+                    class="f_name">Chozhan_Tripadvisor</span> LLC All rights reserved</p>
+        </div>
+        <div class="sts_2">
+            <div class="sts_2_one">
+                <h6>Terms of Use</h6>
+                <h6>Privacy and Cookies Statement</h6>
+                <h6>Cookie Statement</h6>
+                <h6>Site Map</h6>
+                <h6>How the site works</h6>
+                <h6>Contact Us</h6>
+            </div>
+            <div class="sts_2_two" ">
+            <p>This is the version of our website addressed to speakers of English in India.If you a resident of another country or region. please select the appropriate version of Tripadvisor for your country or rwgion in the drop-down menu. more </p>
+            </div>
+        </div>
+     </div>
+     <!-- for mq footer -->
+     <div class=" for_mq-footer">
+                <div class="fmq_one">
+                    <div>
+                        <h5>+ About Us</h5>
+                        <h5>+ Explore</h5>
+                    </div>
+                    <div>
+                        <h5>+ Do Business With Us</h5>
+                        <h5>+ Tripadvisor Sites</h5>
+                    </div>
+                </div>
+                <div class="fmq_two">
+                    <div class="fmq_two-s1" style="display: flex;">
+                        <img src="./images/fav icon.png" alt="LOgo"
+                            style="border-radius: 50%; width: 40px; height:40px; margin-top: 4px; ">
+                        <p class="section12_p" style=" width: 230px; height: fit-content; margin-left:15px;">
+                            &copy;2024<span class="f_name">Chozhan_Tripadvisor</span> LLC All rights reserved</p>
+                    </div>
+                    <div class="fmq_two-s2">
+                        <h6>Terms of Use</h6>
+                        <h6>Privacy and Cookies Statement</h6>
+                        <h6>Cookie Statement</h6>
+                        <h6>Site Map</h6>
+                        <h6>How the site works</h6>
+                        <h6>Contact Us</h6>
+                    </div>
+                </div>
+                <div class="fmq_three" ">
+            <p>This is the version of our website addressed to speakers of English in India.If you a resident of another country or region. please select the appropriate version of Tripadvisor for your country or rwgion in the drop-down menu. more </p>
+        </div>
+        
+    </div>
+</nav>
+
+<script src="script.js">
+    
+</script>
+</body>
+</html
